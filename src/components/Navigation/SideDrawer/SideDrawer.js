@@ -5,6 +5,7 @@ import Aux from "../../../hoc/Auxillary";
 import Backdrop from "../../UI/BackDrop/Backdrop";
 import NavigationItems from "../NavigationItems/NavigationItems";
 
+
 const sideDrawer = (props) =>{
 let attachedClasses =[styles.SideDrawer, styles.Close]
 if (props.open){
@@ -16,7 +17,7 @@ if (props.open){
             <Backdrop show={props.open} clicked={props.closed}/>
             <div className={attachedClasses.join(' ')}>
             <div className={styles.Logo}>
-                <Logo height='11%'/>
+                <Logo height='11%'/> 
             </div>
            
             
